@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <link rel = "stylesheet" href = "style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 8 test!</title>
+        <link href="node_modules/bulma/css/bulma.css">
+    </head>
+    <body>
+        <intro id="intro">Join the numbers to get the <b>2048 tile!</b></intro>
+        <div class="grid-container">
+            <div class="grid-item" id="grid0"></div>
+            <div class="grid-item" id="grid1"></div>
+            <div class="grid-item" id="grid2"></div>  
+            <div class="grid-item" id="grid3"></div>
+            <div class="grid-item" id="grid4"></div>
+            <div class="grid-item" id="grid5"></div>  
+            <div class="grid-item" id="grid6"></div>
+            <div class="grid-item" id="grid7"></div>
+            <div class="grid-item" id="grid8"></div>
+            <div class="grid-item" id="grid9"></div>
+            <div class="grid-item" id="grid10"></div>
+            <div class="grid-item" id="grid11"></div>
+            <div class="grid-item" id="grid12"></div>
+            <div class="grid-item" id="grid13"></div>
+            <div class="grid-item" id="grid14"></div>
+            <div class="grid-item" id="grid15"></div>  
+        </div>
+        <p id = "score">Score: 0 </p>
+        <button type="button" id='restart'>Restart</button>
+        <b id = "win"></b>
+        <b id = "lose"></b>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="./engine/game.js" type="module"></script>
+        <script src="view.js" type="module"></script>
+    </body>
+</html>
